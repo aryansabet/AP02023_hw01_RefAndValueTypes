@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "VariableSizeTest",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.VariableSizeTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "StackDepth10Test",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth10Test\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "StackDepth100Test",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth100Test\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "StackDepth1000Test",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth1000Test\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "StackDepth3000Test",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth3000Test\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "HeapMemoryTest",
+      "setup": "",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.HeapMemoryTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "RefValueTypeCopyTest1",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest1\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "RefValueTypeCopyTest2",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest2\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "RefValueTypeCopyTest3",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest3\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "BoxingTest",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.BoxingTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "TypeTest",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.TypeTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "IdealHusbandTest",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.IdealHusbandTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
