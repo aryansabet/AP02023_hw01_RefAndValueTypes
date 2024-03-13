@@ -3,7 +3,7 @@
     {
       "name": "VariableSizeTest",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.VariableSizeTest\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.VariableSizeTest\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "StackDepth10Test",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth10Test\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth10Test\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "StackDepth100Test",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth100Test\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth100Test\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "StackDepth1000Test",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth1000Test\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth1000Test\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "StackDepth3000Test",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth3000Test\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.StackDepth3000Test\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -63,7 +63,7 @@
     {
       "name": "RefValueTypeCopyTest1",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest1\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest1\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -73,7 +73,7 @@
     {
       "name": "RefValueTypeCopyTest2",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest2\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest2\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -83,7 +83,7 @@
     {
       "name": "RefValueTypeCopyTest3",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest3\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.RefValueTypeCopyTest3\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -93,7 +93,7 @@
     {
       "name": "BoxingTest",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.BoxingTest\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.BoxingTest\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -103,7 +103,7 @@
     {
       "name": "TypeTest",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.TypeTest\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.TypeTest\"",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -113,7 +113,7 @@
     {
       "name": "IdealHusbandTest",
       "setup": "",
-      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.IdealHusbandTest\"",
+      "run": "dotnet test --filter \"FullyQualifiedName=A6.Tests.MemoryTestTests.IdealHusbandTest\"",
       "input": "",
       "output": "",
       "comparison": "included",
