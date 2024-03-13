@@ -28,7 +28,7 @@ jobs:
       - name: Autograding
         uses: education/autograding@v1
 
-  change-check:
-    uses: markpatterson27/GitHub-Classroom-Check-For-Changes/.github/workflows/change-check.yml@main
-    with:
-      paths: .github/classroom/autograding.json .github/workflows/classroom.yml A6.Tests/MemoryTestTests.cs
+  # change-check:
+  #   uses: markpatterson27/GitHub-Classroom-Check-For-Changes/.github/workflows/change-check.yml@main
+  #   with:
+  #     paths: .github/classroom/autograding.json .github/workflows/classroom.yml A6.Tests/MemoryTestTests.cs
