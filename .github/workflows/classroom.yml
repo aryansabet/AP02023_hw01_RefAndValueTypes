@@ -24,11 +24,23 @@ jobs:
 
       - name: Build
         run: dotnet build --no-restore
+        
+      - name: Install reporter
+        continue-on-error: true
+        run: dotnet tool install -g dotnet-trx
+        
+      - name: Run Test 
+        continue-on-error: true
+        run: dotnet test -l trx; trx
+        
+      - name: 🧪 show Report
+        continue-on-error: true
+        if: always()
+        run:  
+          dotnet tool update -g dotnet-trx
+          trx --output
 
       - name: Autograding
         uses: education/autograding@v1
 
-  # change-check:
-  #   uses: markpatterson27/GitHub-Classroom-Check-For-Changes/.github/workflows/change-check.yml@main
-  #   with:
-  #     paths: .github/classroom/autograding.json .github/workflows/classroom.yml A6.Tests/MemoryTestTests.cs
+
