@@ -37,8 +37,7 @@ jobs:
         continue-on-error: true
         if: always()
         run:  
-          dotnet tool update -g dotnet-trx
-          trx --output
+          dotnet tool update -g dotnet-trx ; trx --output
 
       - name: Autograding
         uses: education/autograding@v1
